@@ -25,6 +25,13 @@ cd ATS-Tracker
 ```
 pip install -r requirements.txt
 ```
+
+### Set Up Environment Variables
+Create a .env file in the root directory of the project and add your Google API key:
+```
+GOOGLE_API_KEY=your_google_api_key_here
+```
+
 ### Run the Application 
 ```
 python app.py
